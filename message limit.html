@@ -1,0 +1,34 @@
+<html>
+<head>
+<style>
+.div1
+{
+border:2px solid pink;
+width:380px;
+margin:100;
+}
+</style>
+
+<script>
+
+function limit()
+{
+let str=parseInt(document.getElementById("t1").value);
+for(let str=1; str<=100;str++)
+document.getElementById("t1").value=str;
+{
+alert("over write")
+}
+}
+
+</script>
+</head>
+<body >
+<div class="div1">
+<h1 id="t1"> Message Box </h1>
+<textarea cols="40" row="40" id="t1" maxlength="100">
+</textarea>
+<button  onclick="limit()">send</button>
+</div>
+</body>
+</html>
